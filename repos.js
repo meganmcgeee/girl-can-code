@@ -3,8 +3,8 @@ $(document).ready(function() {
 
 function getWatchedRepos()
 {
-  $( '#result' ).html( "" );
-  var html = "<h2>Submit your favorite respositories here!</h2>";
+  $( '#result' ).html( "<h1></h1>");
+  var html = "<br>";
     $.ajax( {
     	url : "https://api.github.com/users/bvasko/watched",
     	dataType : "jsonp",
@@ -29,12 +29,10 @@ function getWatchedRepos()
           //   </div>
           // </div>
           // <hr>
-
-          	'<h3><a href="' + this.html_url + '">' + this.name + '</a></h3>' +
+          	'<h2><a href="' + this.html_url + '">' + this.name + '</a></h2>' +
           	'<ul class="repo_details">' +
-            '<li id="owner">' + 'Owner: ' + this.owner.login + '</li>' +
-          	'<li id="language">' + 'Language: ' + this.language + '</li>' +
-            '<btn id="description">' + 'Description: ' + this.description + '</btn>' +
+            '<li id="owner">' + 'Owner: ' + this.owner.login + '</li><br>' +
+          	'<li id="language">' + 'Language: ' + this.language + '</li><br>' +
           	'</ul>' +
             '<hr>' +
           	'</table>';

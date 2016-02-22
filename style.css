@@ -8,8 +8,9 @@ li{
 }
 
 #result{
-  margin: 0 20px 0 2px;"
+  margin: 0 10px 0 2px;"
 }
+
 
 
 /*Bootstrap Template*/
@@ -26,8 +27,13 @@ body {
   background-color:#efefef;
 }
 
+.repo_details{
+
+
+}
+
 h1,h2,h3,.highlight,.navbar a,#masthead h4 {
-  font-family:'Oswald',arial narrow,sans-serif;
+  font-family:'Roboto';
 }
 
 footer {
@@ -107,7 +113,6 @@ a,a:hover {
 .navbar-bright a, .navbar-bright .navbar-brand, #masthead h4 {
   color:#ccccdd;
   font-size:14px;
-  text-transform: uppercase;
   letter-spacing:.08em;
 }
 
