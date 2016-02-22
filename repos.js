@@ -33,8 +33,8 @@ function getWatchedRepos()
           	'<h3><a href="' + this.html_url + '">' + this.name + '</a></h3>' +
           	'<ul class="repo_details">' +
             '<li id="owner">' + 'Owner: ' + this.owner.login + '</li>' +
-          	'<li id="language">' + 'Language: ' + this.language + '</li><br>' +
-            '<li id="description">' + 'Description: ' + this.description + '</li>' +
+          	'<li id="language">' + 'Language: ' + this.language + '</li>' +
+            '<btn id="description">' + 'Description: ' + this.description + '</btn>' +
           	'</ul>' +
             '<hr>' +
           	'</table>';
