@@ -6,7 +6,7 @@ function getWatchedRepos()
   $( '#result' ).html( "<h1></h1>");
   var html = "<br>";
     $.ajax( {
-    	url : "https://api.github.com/users/bvasko/watched",
+    	url : "https://api.github.com/users/gracielovelace/watched",
     	dataType : "jsonp",
     	success : function ( returndata ) {
       	$.each( returndata.data, function ( i, item ) {
