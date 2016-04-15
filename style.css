@@ -1,5 +1,6 @@
 body {
   padding-top: 75px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg');
 }
 li{
   list-style: none;
@@ -25,6 +26,7 @@ body {
   padding-top:50px;
   color:#646464;
   background-color:#efefef;
+  font-family:'Courier';
 }
 
 .repo_details{
@@ -32,9 +34,6 @@ body {
 
 }
 
-h1,h2,h3,.highlight,.navbar a,#masthead h4 {
-  font-family:'Roboto';
-}
 
 footer {
 
@@ -45,26 +44,16 @@ footer {
 
 }
 
-
-#masthead {
-  min-height:199px;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8a/H96566k.jpg');
-  background-repeat: repeat repeat;
-  color:#aaaacc;
-}
-
 #masthead h1 {
   font-size: 55px;
   line-height: 1;
-  color:#000;
+  color:#fff;
   margin-top:50px;
 }
 
 #masthead .well {
   margin-top:31px;
-  background-color:#111166;
-  border-color:#000022;
-  color:#efefff;
+  background-color:#fff;
   min-height:127px;
 }
 
@@ -83,11 +72,6 @@ footer {
   width:100%;
 }
 
-.top-spacer {
-  background-color:#ffffff;
-  height:40px;
-}
-
 a,a:hover {
   color:#223344;
   text-decoration:none;
@@ -104,7 +88,7 @@ a,a:hover {
 }
 
 .navbar-bright {
-  background-color:#111166;
+  background-color:#fff;
   color:#fff;
   margin-bottom: 0;
   border-width: 0;
@@ -139,7 +123,6 @@ a,a:hover {
 
 .panel {
   border-color:transparent;
-  border-radius:0;
 }
 
 .thumbnail {
